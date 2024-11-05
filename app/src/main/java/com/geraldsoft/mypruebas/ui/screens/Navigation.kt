@@ -14,6 +14,7 @@ import com.geraldsoft.mypruebas.ui.screens.home.HomeScreen
 @Composable
 fun Navigation() {
 
+
     val navController = rememberNavController()
 
     NavHost(navController = navController, startDestination = "home") {
