@@ -36,6 +36,8 @@ import com.geraldsoft.mypruebas.ui.screens.home.Screen
 @Composable
 fun DetailScreen(vm: DetailViewModel, onBack: ()-> Unit) {
 
+    // mody develop
+
     val appName = stringResource(id = R.string.app_name)
     var appBarTitle by remember {
         mutableStateOf(appName)
