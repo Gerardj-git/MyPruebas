@@ -47,6 +47,7 @@ fun HomeScreen(
     onClick: (Movies) -> Unit,
     vm: HomeViewModel = viewModel()
 ) {
+    //issue 1
 
     val appName = stringResource(id = R.string.app_name)
     var appBarTitle by remember { mutableStateOf(appName) }
