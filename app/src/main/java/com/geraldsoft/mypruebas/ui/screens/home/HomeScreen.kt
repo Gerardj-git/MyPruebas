@@ -47,8 +47,7 @@ fun HomeScreen(
     onClick: (Movies) -> Unit,
     vm: HomeViewModel = viewModel()
 ) {
-    //rama develop
-    //new modify
+    //issue 1
 
     val appName = stringResource(id = R.string.app_name)
     var appBarTitle by remember { mutableStateOf(appName) }
