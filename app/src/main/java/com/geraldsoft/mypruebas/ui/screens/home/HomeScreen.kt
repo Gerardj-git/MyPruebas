@@ -50,7 +50,7 @@ fun HomeScreen(
 
     val appName = stringResource(id = R.string.app_name)
     var appBarTitle by remember { mutableStateOf(appName) }
-
+    //main
     vm.onUiReady()
 
     Screen {
